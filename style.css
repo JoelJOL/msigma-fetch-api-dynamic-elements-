@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rubik&family=Varela+Round&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+#main-heading{
+    align-items: center;
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    height: fit-content;
+}
+.title-head{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    /* width: 100%; */
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+.lists-main{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 70%;
+    
+    margin-left: 15%;
+    justify-content: space-between;
+}
+.list{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;   
+    margin-top: 30px; 
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 5px 0.5px black;
+}
+.list-heading{
+    text-align: center;
+}
+.button-list{
+    margin-left: 130px;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.color0{
+    color: rgb(245, 155, 39);
+}
+.color1{
+    color: rgb(35, 248, 255);
+}
+.color2{
+    color: rgb(255, 64, 64);
+}
+.color3{
+    color: rgb(255, 95, 231);
+}
+.color4{
+   color: rgb(79, 255, 88)
+}
+
+.color5{
+   color: rgb(84, 84, 255);
+}
+.colorb0{
+    color: rgb(245, 155, 39);
+    border:3px solid rgb(245, 155, 39)
+}
+.colorb1{
+    color: rgb(35, 248, 255);
+    border:3px solid rgb(35, 248, 255)
+
+}
+.colorb2{
+    color: rgb(255, 64, 64);
+    border:3px solid rgb(255, 64, 64)
+
+}
+.colorb3{
+    color: rgb(255, 95, 231);
+    border:3px solid rgb(255, 95, 231)
+
+}
+.colorb4{
+   color: rgb(79, 255, 88);
+   border:3px solid rgb(79, 255, 88)
+
+}
+
+.colorb5{
+   color: rgb(84, 84, 255);
+   border:3px solid rgb(84, 84, 255)
+
+}
+
+
